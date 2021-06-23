@@ -1,6 +1,6 @@
 ### Basic form
 
-  <Controller
+    <Controller
         control={control}
         name="firstName"
         render={({ field }) => (
@@ -55,7 +55,7 @@
 ### Contact Form
 
 
-  <Controller
+    <Controller
         control={control}
         name="emailAddress"
         render={({ field }) => (
@@ -106,7 +106,7 @@
 ### Address Form / Personal Form
 
 
-  <Controller
+    <Controller
         control={control}
         name="address1"
         render={({ field }) => (
@@ -156,7 +156,7 @@
 ### Payment form
 
 
- <Controller
+    <Controller
         control={control}
         name="cardNumber"
         render={({ field }) => (
